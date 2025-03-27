@@ -21,10 +21,12 @@ The application translates the query into SQL using Google Gemini API.
 The SQL query is executed on the SQLite database.
 Results are displayed in a Streamlit interactive data table.
 
-# Database Schema (EMPLOYEE Table)
-Column	    Type	          Description
-ID	        INTEGER	        Unique identifier for each employee
-NAME	      TEXT	          Employee's name
-DEPARTMENT	TEXT	          Department where the employee works
-SALARY	    INTEGER	        Employee's salary
+## 📦 Database Schema (EMPLOYEE Table)
+
+| **Column**    | **Type**    | **Description**                                   |
+|---------------|------------|---------------------------------------------------|
+| **ID**        | INTEGER     | Unique identifier for each employee               |
+| **NAME**      | TEXT        | Employee's name                                   |
+| **DEPARTMENT**| TEXT        | Department where the employee works               |
+| **SALARY**    | INTEGER     | Employee's salary                                 |
 
