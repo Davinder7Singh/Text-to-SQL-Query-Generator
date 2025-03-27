@@ -1,21 +1,21 @@
 # Text-to-SQL-Query-Generator
 This project simplifies the process of writing SQL queries by allowing users to input English questions. It leverages the Google Gemini API to generate appropriate SQL queries based on the context provided. The application is built with Streamlit for an interactive interface and utilizes SQLite for database interaction.
 
-#Key Features
+# Key Features
 Text-to-SQL Translation: Converts user questions into SQL queries.
 Dynamic Data Retrieval: Queries and fetches data from a sample EMPLOYEE database.
 User-Friendly Interface: Built with Streamlit for easy interaction.
 Secure API Handling: Uses python-dotenv for managing sensitive credentials.
 Randomized Data: Generates 100 random employee records for testing.
 
-#Tech Stack
+# Tech Stack
 Language: Python
 Framework: Streamlit
 Database: SQLite
 API: Google Gemini
 Libraries: pandas, dotenv, sqlite3
 
-#How It Works
+# How It Works
 Users input English questions about employee records.
 The application translates the query into SQL using Google Gemini API.
 The SQL query is executed on the SQLite database.
