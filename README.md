@@ -30,3 +30,6 @@ Results are displayed in a Streamlit interactive data table.
 | **DEPARTMENT**| TEXT        | Department where the employee works               |
 | **SALARY**    | INTEGER     | Employee's salary                                 |
 
+
+![p33](https://github.com/user-attachments/assets/8c4f4458-2557-4375-b927-0670db845690)
+
